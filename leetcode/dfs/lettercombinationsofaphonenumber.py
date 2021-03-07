@@ -29,7 +29,7 @@ class Solution:
         For each index in the digits, gets all the possible alphabets for that digit
         and then calls the function again with the next index. Once we run out of characters
         or gone past the index, we can store them in answer and continue. After the function
-        has returned we mmust remove the last character inserted to ensure the consistency of the next
+        has returned we must remove the last character inserted to ensure the consistency of the next
         exploration
     """
     def exploreAllCombinations(self, answer, tmp_result, digits, digit_letter_map, current_index):
