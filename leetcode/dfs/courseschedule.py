@@ -36,8 +36,6 @@ class Solution:
         # mark the current node as visited
         being_visited.add(vertex)
 
-        # for all the adjacent vertices for current vertex, call dfs again
-        adjacent_vertexes = adjacency_map.get(vertex, None)
 
         for adjacent_vertex in adjacency_map.get(vertex, None):
             if adjacent_vertex in visited:
